@@ -34,7 +34,7 @@ var selectedRoom = '';
 var initialized = false;
 socket.on('connect', function(data){
     term._initialized = true;
-    socket.emit('authentication', {apertureClientId: 'Jordan', type: 'user'});
+    socket.emit('authentication', {apertureClientId: 'Demo', type: 'user'});
     if(initialized === false){
       initialized = true;
       socketInit();
