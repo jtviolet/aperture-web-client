@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>xterm.js demo</title>
+        <link rel="stylesheet" href="node_modules/xterm/dist/xterm.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="node_modules/xterm/dist/xterm.js" ></script>
+        <script src="node_modules/xterm/dist/addons/fit/fit.js" ></script>
+        <script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+    </head>
+    <body>
+        <select id="rooms" onChange="connect()" >
+        <button id="connect" onclick="connect()">Connect</button>
+        <input type="textbox" id="connected"/>
+
+        <h1>Aperture - Web Terminal</h1>
+        <div id="terminal-container"></div>
+        <p><strong>Attention:</strong> The demo is a barebones implementation and is designed for xterm.js evaluation purposes only. Exposing the demo to the public as is would introduce security risks for the host.</p>
+        <script src="main.js" defer ></script>
+    </body>
+</html>
