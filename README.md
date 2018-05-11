@@ -7,9 +7,10 @@ Currently authentication is implemented as a bare-bones usage of [socket.io-auth
 # Install and Run
 ```
 git clone https://github.com/jtviolet/aperture-web-client.git
-cd aperture-server
+cd aperture-web-client
 npm install
 ```
+Navigate to aperture-web-client and open index.html in your browser.
 
 # Usage
 You will need to have the [aperture-edge-client](https://github.com/jtviolet/aperture-edge-client) running on the devices you want to connect to. You will also need an instance of the [aperture-server](https://github.com/jtviolet/aperture-server) running.
